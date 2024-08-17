@@ -9,11 +9,13 @@ import org.springframework.context.annotation.Configuration;
 public class RedisConfig {
 
     /**
-     * 设置优先从slave节点读
+     * 设置优先读取从节点
      */
     @Bean
     public LettuceClientConfigurationBuilderCustomizer clientConfigurationBuilderCustomizer() {
-        return clientConfigurationBuilder -> clientConfigurationBuilder.readFrom(ReadFrom.REPLICA_PREFERRED);
+        return clientConfigurationBuilder -> {
+            clientConfigurationBuilder.readFrom(ReadFrom.REPLICA_PREFERRED);
+        };
     }
 
 }
