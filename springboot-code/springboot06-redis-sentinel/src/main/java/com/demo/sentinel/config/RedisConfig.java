@@ -13,9 +13,7 @@ public class RedisConfig {
      */
     @Bean
     public LettuceClientConfigurationBuilderCustomizer clientConfigurationBuilderCustomizer() {
-        return clientConfigurationBuilder -> {
-            clientConfigurationBuilder.readFrom(ReadFrom.REPLICA_PREFERRED);
-        };
+        return clientConfigurationBuilder -> clientConfigurationBuilder.readFrom(ReadFrom.REPLICA_PREFERRED);
     }
 
 }
