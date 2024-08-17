@@ -1,3 +1,0 @@
-com\demo\common\config\MvcConfig.class
-com\demo\common\exception\GlobalExceptionHandler.class
-com\demo\common\interceptor\UserInfoInterceptor.class

@@ -1,4 +1,0 @@
-com\demo\feign\config\DefaultFeignConfig.class
-com\demo\feign\dto\Order.class
-com\demo\feign\dto\User.class
-com\demo\feign\clients\UserClient.class

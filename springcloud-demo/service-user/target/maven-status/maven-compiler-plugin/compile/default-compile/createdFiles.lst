@@ -1,6 +1,0 @@
-com\demo\user\UserApplication.class
-com\demo\user\service\impl\UserServiceImpl.class
-com\demo\user\mapper\UserMapper.class
-com\demo\user\config\PatternProperty.class
-com\demo\user\service\UserService.class
-com\demo\user\controller\UserController.class

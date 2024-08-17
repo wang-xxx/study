@@ -1,3 +1,0 @@
-com\demo\gateway\filter\AuthorizeFilter.class
-com\demo\gateway\config\JWTProperties.class
-com\demo\gateway\GatewayApplication.class

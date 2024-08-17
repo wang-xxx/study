@@ -1,3 +1,0 @@
-#接口全路径名称=自定义实现类
-org.springframework.context.ApplicationContextInitializer=com.demo.interview.initializer.MyApplicationContextInitializer
-org.springframework.context.ApplicationListener=com.demo.interview.listener.MyApplicationListener

@@ -1,2 +1,9 @@
+# 日志文件
 *.log
+# idea文件
 */.idea/
+*.iws
+*.iml
+*.ipr
+# maven build文件
+**/target/
