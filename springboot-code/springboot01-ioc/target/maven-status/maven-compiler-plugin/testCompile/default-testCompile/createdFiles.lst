@@ -1,0 +1,4 @@
+com\demo\ioc\test\BeanDefinitionTest.class
+com\demo\ioc\test\BeanScannerTest.class
+com\demo\ioc\test\TestAOP.class
+com\demo\ioc\test\BeanDefinitionRegistTest.class

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+    <!-- 设置Mybatis运行时连接数据库环境 -->
+    <!-- default设置多个环境唯一生效的id -->
+    <environments default="MySQL">
+        <!-- id是环境的唯一标识 -->
+        <environment id="MySQL">
+            <!-- JDBC内置事务管理器JDBC -->
+            <transactionManager type="JDBC"></transactionManager>
+            <dataSource type="POOLED">
+                <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql://localhost:3306/demo_mybatis"/>
+                <property name="username" value="root"/>
+                <property name="password" value="123456"/>
+            </dataSource>
+        </environment>
+    </environments>
+
+    <!-- 注册Mapper映射文件 -->
+    <mappers>
+        <mapper resource="mapper/employee-mapper.xml"/>
+
+        <!--<package name="com.demo.quick.mapper"/>-->
+    </mappers>
+
+</configuration>

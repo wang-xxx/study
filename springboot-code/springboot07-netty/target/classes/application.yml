@@ -1,0 +1,4 @@
+# netty配置
+netty:
+  server:
+    port: 8081

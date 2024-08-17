@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="happyMachine" class="com.demo.xml.pojo.HappyMachine">
+        <property name="machineName" value="机器名称"/>
+    </bean>
+
+    <bean id="happyComponent" class="com.demo.xml.pojo.HappyComponent">
+        <property name="componentName" value="set赋值"/>
+        <property name="happyMachine" ref="happyMachine"/>
+        <property name="gridFriends">
+            <list>
+                <value>迪丽热巴</value>
+                <value>刘亦菲</value>
+                <value>我老公呢</value>
+            </list>
+        </property>
+        <property name="heros">
+            <set>
+                <value>瞎子</value>
+                <value>德玛</value>
+                <value>光辉</value>
+            </set>
+        </property>
+        <property name="skills">
+            <map>
+                <entry key="Q" value="天音波"></entry>
+                <entry key="W" value="金钟罩"></entry>
+                <entry key="R" value="救死扶伤脚"></entry>
+            </map>
+        </property>
+    </bean>
+
+</beans>

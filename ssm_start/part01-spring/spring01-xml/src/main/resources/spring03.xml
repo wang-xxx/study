@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="happyComponent" class="com.demo.xml.pojo.HappyComponent">
+        <property name="componentName" value="set赋值"/>
+        <property name="happyMachine" ref="happyMachine"/>
+    </bean>
+
+    <bean id="happyMachine" class="com.demo.xml.pojo.HappyMachine">
+        <property name="machineName" value="机器名称"/>
+    </bean>
+
+</beans>

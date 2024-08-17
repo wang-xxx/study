@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.demo.param.mapper.EmployeeMapper">
+
+    <select id="selectAll" resultType="com.demo.param.pojo.Employee">
+        select emp_id empId, emp_name empName, emp_salary empSalary, emp_gender empGender
+        from t_emp
+    </select>
+    
+    <select id="selectById" resultType="com.demo.param.pojo.Employee">
+        select emp_id empId, emp_name empName, emp_salary empSalary, emp_gender empGender
+        from t_emp
+        where emp_id = #{empId}
+    </select>
+
+    <select id="selectAllByRules" resultType="com.demo.param.pojo.Employee">
+        select emp_id empId, emp_name empName, emp_salary empSalary, emp_gender empGender
+        from t_emp
+        order by emp_salary ${rules}
+    </select>
+
+    <delete id="deleteById">
+        delete
+        from t_emp
+        where emp_id = #{empId}
+    </delete>
+
+    <insert id="insertEmployee">
+        insert into t_emp(emp_name, emp_salary, emp_gender)
+        values (#{empName}, #{empSalary}, #{empGender})
+    </insert>
+
+    <update id="updateEmployee">
+        update t_emp
+        set emp_salary = #{param2}
+        where emp_id = #{param1}
+    </update>
+
+    <select id="selectByCondition" resultType="com.demo.param.pojo.Employee">
+        select emp_id empId, emp_name empName, emp_salary empSalary, emp_gender empGender
+        from t_emp
+        where emp_name = #{empName}
+          and emp_gender = #{empGender}
+    </select>
+
+</mapper>

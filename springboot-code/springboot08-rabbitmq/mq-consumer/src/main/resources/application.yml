@@ -1,0 +1,21 @@
+server:
+  port: 8082
+
+spring:
+  rabbitmq:
+    host: 192.168.5.5
+    port: 5672
+    virtual-host: test
+    username: admin
+    password: 123456
+    listener:
+      simple:
+        prefetch: 1
+        acknowledge-mode: auto #none：关闭ack确认，manual：手动ack，auto自动ack
+        retry:
+          enabled: true
+          max-attempts: 3
+          initial-interval: 5000ms
+logging:
+  level:
+    root: info

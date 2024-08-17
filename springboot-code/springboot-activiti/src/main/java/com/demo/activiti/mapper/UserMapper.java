@@ -1,0 +1,10 @@
+package com.demo.activiti.mapper;
+
+import com.demo.activiti.entity.User;
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import org.apache.ibatis.annotations.Mapper;
+
+@Mapper
+public interface UserMapper extends BaseMapper<User> {
+
+}

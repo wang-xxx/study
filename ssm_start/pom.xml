@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.demo</groupId>
+    <artifactId>ssm_start</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <modules>
+        <module>part01-spring</module>
+        <module>part02-springmvc</module>
+        <module>part03-mybatis</module>
+        <module>part04-ssm</module>
+        <module>part05-springboot</module>
+    </modules>
+
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <!-- 依赖版本 -->
+        <spring.version>6.0.4</spring.version>
+        <spring-boot.version>3.0.2</spring-boot.version>
+        <mybatis.version>3.5.13</mybatis.version>
+        <lombok.version>1.18.30</lombok.version>
+        <jakarta-servlet.version>3.0.0</jakarta-servlet.version>
+        <jakarta-web.vesion>10.0.0</jakarta-web.vesion>
+        <jakarta-annotation.version>2.1.1</jakarta-annotation.version>
+        <jackson.version>2.14.1</jackson.version>
+        <hibernate-validator.version>8.0.0.Final</hibernate-validator.version>
+        <commons-fileupload.version>1.5</commons-fileupload.version>
+        <logback-classic.version>1.4.5</logback-classic.version>
+        <pagehelper.version>6.1.0</pagehelper.version>
+        <junit-jupiter.version>5.10.2</junit-jupiter.version>
+
+        <maven-compiler-plugin.version>3.11.0</maven-compiler-plugin.version>
+
+        <!-- 数据库连接相关 -->
+        <mybatis-spring.version>3.0.2</mybatis-spring.version>
+        <mysql-connector.version>8.0.32</mysql-connector.version>
+        <druid.version>1.2.22</druid.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>${junit-jupiter.version}</version>
+        </dependency>
+    </dependencies>
+
+</project>

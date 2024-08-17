@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!-- 引入外部属性配置文件 -->
+    <context:property-placeholder location="classpath:db.properties"/>
+
+    <!-- Druid连接池配置 -->
+    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource">
+        <property name="driverClassName" value="${jdbc.driverClassName}"/>
+        <property name="url" value="${jdbc.url}"/>
+        <property name="username" value="${jdbc.username}"/>
+        <property name="password" value="${jdbc.password}"/>
+    </bean>
+
+    <!-- 将SqlSessionFactory放入IOC容器 -->
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <!-- 引入Mybatis外部配置文件 -->
+        <!--<property name="configLocation" value="classpath:mybatis-config.xml"/>-->
+        <!-- 引入DruidDataSource -->
+        <property name="dataSource" ref="dataSource"/>
+
+        <!-- Mybatis属性设置 -->
+        <property name="configuration">
+            <bean class="org.apache.ibatis.session.Configuration">
+                <property name="logImpl" value="org.apache.ibatis.logging.slf4j.Slf4jImpl"/>
+                <property name="mapUnderscoreToCamelCase" value="true"/>
+
+            </bean>
+        </property>
+        <!-- 替换的是typeAliases+package -->
+        <property name="typeAliasesPackage" value="com.demo.schedule.pojo"/>
+
+        <!-- 替换的是plugins+plugin -->
+        <property name="plugins">
+            <array>
+                <bean class="com.github.pagehelper.PageInterceptor">
+                    <property name="properties">
+                        <props>
+                            <prop key="helperDialect">mysql</prop>
+                        </props>
+                    </property>
+                </bean>
+            </array>
+        </property>
+
+        <!-- 替换的是mappers+mapper，因为不是Mybatis配置文件，所以要写全 -->
+        <property name="mapperLocations" value="classpath:com/demo/schedule/mapper/*.xml"/>
+    </bean>
+
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="basePackage" value="com.demo.schedule.mapper"/>
+    </bean>
+
+</beans>

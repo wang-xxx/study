@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.demo</groupId>
+    <artifactId>springboot-code</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.7.0</version>
+    </parent>
+
+    <modules>
+        <module>springboot00-interview</module>
+        <module>springboot01-start</module>
+        <module>springboot01-ioc</module>
+        <module>springboot02-mybatis</module>
+        <module>springboot03-register</module>
+        <module>springboot04-auto-config</module>
+        <module>dmybatis-spring-boot-autoconfigure</module>
+        <module>dmybatis-spring-boot-starter</module>
+        <module>springboot05-profiles</module>
+        <module>springboot06-redis</module>
+        <module>springboot06-redis-sentinel</module>
+        <module>springboot07-netty</module>
+        <module>springboot08-mybatisx</module>
+        <module>springboot-skywalking</module>
+        <module>springboot09-arthas</module>
+        <module>springboot-docker</module>
+        <module>springboot08-rabbitmq</module>
+        <module>springboot-ffmpeg</module>
+        <module>springboot-activiti</module>
+        <module>springboot-mongodb</module>
+        <module>springboot-security</module>
+    </modules>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <!-- 依赖版本 -->
+        <spring-boot.version>2.7.0</spring-boot.version>
+
+        <redisson.version>3.24.3</redisson.version>
+        <commons-pool2.version>2.11.1</commons-pool2.version>
+
+        <mysql.version>8.0.32</mysql.version>
+        <mybatis.version>2.2.0</mybatis.version>
+        <mybatis-plus.version>3.5.5</mybatis-plus.version>
+        <druid.version>1.2.9</druid.version>
+
+        <netty-all.version>5.0.0.Alpha2</netty-all.version>
+        <jackson.version>2.12.3</jackson.version>
+        <hutool.version>5.8.22</hutool.version>
+        <lombok.version>1.18.26</lombok.version>
+        <arthas.version>3.7.2</arthas.version>
+        <jquery.version>3.7.1</jquery.version>
+        <bootstrap.version>5.3.3</bootstrap.version>
+
+        <ffmpeg.version>6.0-1.5.9</ffmpeg.version>
+        <ffmpeg-platform.version>6.1.1-1.5.10</ffmpeg-platform.version>
+
+        <activiti.version>6.0.0</activiti.version>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <!-- 数据库 -->
+            <dependency>
+                <groupId>org.redisson</groupId>
+                <artifactId>redisson</artifactId>
+                <version>${redisson.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-pool2</artifactId>
+                <version>${commons-pool2.version}</version>
+            </dependency>
+
+            <!--Mysql数据库驱动8 -->
+            <dependency>
+                <groupId>com.mysql</groupId>
+                <artifactId>mysql-connector-j</artifactId>
+                <version>${mysql.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.mybatis.spring.boot</groupId>
+                <artifactId>mybatis-spring-boot-starter</artifactId>
+                <version>${mybatis.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-boot-starter</artifactId>
+                <version>${mybatis-plus.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>druid-spring-boot-starter</artifactId>
+                <version>${druid.version}</version>
+            </dependency>
+            <!-- netty -->
+            <dependency>
+                <groupId>io.netty</groupId>
+                <artifactId>netty-all</artifactId>
+                <version>${netty-all.version}</version>
+            </dependency>
+            <!-- 工具包 -->
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>${lombok.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>cn.hutool</groupId>
+                <artifactId>hutool-all</artifactId>
+                <version>${hutool.version}</version>
+            </dependency>
+
+            <!--rabbitmq-需要的 AMQP 依赖-->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-amqp</artifactId>
+                <version>${spring-boot.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.fasterxml.jackson.core</groupId>
+                <artifactId>jackson-databind</artifactId>
+                <version>${jackson.version}</version>
+            </dependency>
+
+            <!-- arthas监控 -->
+            <dependency>
+                <groupId>com.taobao.arthas</groupId>
+                <artifactId>arthas-spring-boot-starter</artifactId>
+                <version>${arthas.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.webjars</groupId>
+                <artifactId>jquery</artifactId>
+                <version>${jquery.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.webjars</groupId>
+                <artifactId>bootstrap</artifactId>
+                <version>${bootstrap.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.bytedeco</groupId>
+                <artifactId>javacv</artifactId>
+                <version>1.5.10</version>
+            </dependency>
+            <dependency>
+                <groupId>org.bytedeco</groupId>
+                <artifactId>ffmpeg</artifactId>
+                <version>${ffmpeg.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.bytedeco</groupId>
+                <artifactId>ffmpeg-platform</artifactId>
+                <version>${ffmpeg-platform.version}</version>
+            </dependency>
+
+            <!-- activity工作流 -->
+            <dependency>
+                <groupId>org.activiti</groupId>
+                <artifactId>activiti-spring-boot-starter</artifactId>
+                <version>${activiti.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.activiti</groupId>
+                <artifactId>activiti-image-generator</artifactId>
+                <version>${activiti.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+        </dependency>
+    </dependencies>
+
+</project>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/springboot01-start/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot02-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot03-register/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot04-auto-config/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot05-profiles/pom.xml" />
+        <option value="$PROJECT_DIR$/dmybatis-spring-boot-autoconfigure/pom.xml" />
+        <option value="$PROJECT_DIR$/dmybatis-spring-boot-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot00-interview/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot01-ioc/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot06-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot06-redis-sentinel/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot07-netty/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot08-mybatisx/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/springboot06-redisson/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot06-test/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot09-rabbitmq/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot09-skywalking/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK" />
+</project>
