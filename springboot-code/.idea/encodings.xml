@@ -1,6 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/dmybatis-spring-boot-autoconfigure/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dmybatis-spring-boot-autoconfigure/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dmybatis-spring-boot-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dmybatis-spring-boot-starter/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-activiti/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-activiti/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-docker/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-docker/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-ffmpeg/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-ffmpeg/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-mongodb/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-mongodb/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-security/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-security/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-skywalking/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-skywalking/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot00-interview/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot00-interview/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot01-ioc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot01-ioc/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot01-start/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot01-start/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot02-mybatis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot02-mybatis/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot03-register/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot03-register/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot04-auto-config/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot04-auto-config/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot05-profiles/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot05-profiles/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot06-redis-sentinel/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot06-redis-sentinel/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot06-redis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot06-redis/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot07-netty/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot07-netty/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot08-mybatisx/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot08-mybatisx/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot08-rabbitmq/mq-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot08-rabbitmq/mq-common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot08-rabbitmq/mq-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot08-rabbitmq/mq-consumer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot08-rabbitmq/mq-publisher/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot08-rabbitmq/mq-publisher/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot08-rabbitmq/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot08-rabbitmq/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot09-arthas/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot09-arthas/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

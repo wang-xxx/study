@@ -4,11 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d90cc6f-441a-43e4-a4df-2dde55d5b905" name="Changes" comment="" />
+    <list default="true" id="6d90cc6f-441a-43e4-a4df-2dde55d5b905" name="Changes" comment="修改jdk8">
+      <change beforePath="$PROJECT_DIR$/../ssm_start/part02-springmvc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssm_start/part02-springmvc/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssm_start/part02-springmvc/springmvc01-quick/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssm_start/part02-springmvc/springmvc01-quick/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssm_start/part02-springmvc/springmvc02-request/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssm_start/part02-springmvc/springmvc02-request/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssm_start/part02-springmvc/springmvc03-response/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssm_start/part02-springmvc/springmvc03-response/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssm_start/part02-springmvc/springmvc04-restful/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssm_start/part02-springmvc/springmvc04-restful/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssm_start/part02-springmvc/springmvc05-rest/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssm_start/part02-springmvc/springmvc05-rest/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssm_start/part02-springmvc/springmvc07-exception/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssm_start/part02-springmvc/springmvc07-exception/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssm_start/part03-mybatis/mybatis03-result/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssm_start/part03-mybatis/mybatis03-result/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssm_start/part03-mybatis/mybatis05-dynamic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssm_start/part03-mybatis/mybatis05-dynamic/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssm_start/part03-mybatis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssm_start/part03-mybatis/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssm_start/part04-ssm/ssm01-start/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssm_start/part04-ssm/ssm01-start/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssm_start/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssm_start/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleUserHome" value="$USER_HOME$/.gradle" />
@@ -16,11 +32,11 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="customMavenHome" value="E:\java\Tool\apache-maven-3.9.5" />
-        <option name="localRepository" value="E:\mavenRepository" />
+        <option name="customMavenHome" value="D:\java\apache-maven-3.9.5" />
+        <option name="localRepository" value="D:\mavenRepository" />
         <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
         <option name="useMavenConfig" value="false" />
-        <option name="userSettingsFile" value="E:\java\Tool\apache-maven-3.9.5\conf\settings.xml" />
+        <option name="userSettingsFile" value="D:\java\apache-maven-3.9.5\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -30,24 +46,66 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2kmIqGsFUZegBKkFPEoIBUMOyrz" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/java/ideaProject/springboot-code",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "vcs.Git",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven.springboot-code [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.springboot-code [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.springboot-code [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.springboot-code [validate].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.IOCApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/projects/gitProjects/study/springboot-code&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="Application" />
+        <option value="JUnit" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.IOCApplication">
+    <configuration name="DockerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="springboot-docker" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.demo.docker.DockerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IOCApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="springboot01-ioc" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.demo.ioc.IOCApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -67,10 +125,19 @@
       <workItem from="1710334024736" duration="110000" />
       <workItem from="1719185566337" duration="840000" />
       <workItem from="1723882514919" duration="74000" />
+      <workItem from="1723891576841" duration="167000" />
+      <workItem from="1723891746681" duration="2053000" />
+      <workItem from="1723895483201" duration="638000" />
+      <workItem from="1723979758670" duration="207000" />
+      <workItem from="1723979993179" duration="118000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="修改jdk8" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改jdk8" />
   </component>
 </project>
